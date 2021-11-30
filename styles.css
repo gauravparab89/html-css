@@ -1,0 +1,109 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: gold;
+}
+
+.main-navbar__ulist {
+  margin: 5px;
+  padding: 5px;
+}
+
+.main-header > div {
+  display: inline-block;
+}
+
+.main-navbar {
+  display: inline-block;
+  text-align: right;
+  width: calc(97% - 60px);
+}
+
+.main-brand__logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding-left: 5px;
+}
+
+.main-navbar__list {
+  display: inline-block;
+  padding: 4px 15px;
+}
+
+.main-navbar__list a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-navbar__list a:hover {
+  border-bottom: 2px solid white;
+}
+
+.main-navbar__list:hover {
+  color: white;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+}
+.plan {
+  background-color: #d5ffdc;
+  text-align: center;
+  display: inline-block;
+  padding: 16px;
+  margin: 8px;
+  vertical-align: middle;
+  width: 28%;
+  border-radius: 5px;
+}
+
+.recommended-plan {
+  background-color: green;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+.recommended-annotation {
+  background: white;
+  color: green;
+  padding: 8px;
+  margin-right: 45px;
+  margin-left: 45px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan-purchase-button {
+  margin-top: 8px;
+  font: inherit;
+  background-color: brown;
+  color: aliceblue;
+  border: 2px solid brown;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.plan-purchase-button:hover,
+.plan-purchase-button:active {
+  background-color: aliceblue;
+  color: brown;
+}
